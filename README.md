@@ -29,5 +29,3 @@ openai.api_key = "OPENAI TOKEN HERE"
 ```python
 app = Application.builder().token("---TELEGRAM TOKEN HERE---").build()
 ```
-
-
