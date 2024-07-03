@@ -4,7 +4,7 @@ UniPGenius is a simple telegram bot that lets you talkt to GPT 3.5 via its APIs.
 
 ## Contributors
 
-The bot was a project for the Software Engineering exam at the Università of Perugia.
+The bot was a project for the Software Engineering exam at the University of Perugia.
 
 - **alteyth** - [Github](https://github.com/alteyth)
 - **suiigyoza** - [Github](https://github.com/suiigyoza)
