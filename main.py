@@ -4,8 +4,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import openai
 import lib
 
-# TOKEN: Final = ""
-# openai.api_key = ""
+# TOKEN: Final = "TELEGRAM TOKEN HERE"
+# openai.api_key = "OPENAI TOKEN HERE"
 
 # Messaggio placeholder di attesa una volta ricevuta una richiesta
 must_delete: Update.message
@@ -95,7 +95,7 @@ async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
 if __name__ == '__main__':
     print("Avviando il Bot...")
     # Istanziamento del Bot
-    app = Application.builder().token("TOKEN").build()
+    app = Application.builder().token("---TELEGRAM TOKEN HERE---").build()
 
     # Gestione dei comandi
     app.add_handler(CommandHandler("start", start_command))
